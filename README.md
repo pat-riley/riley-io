@@ -45,7 +45,6 @@ $ gulp generate-markdown
 This rebuilds all markdown in the `generated` directory.
 
 ## Things to remember
-I've changed the `$grid-columns` variable to 16 in the bootstrap because it wouldn't let me override it in the layouts
 Same with the max width of the container
 
 
