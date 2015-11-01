@@ -1,0 +1,20 @@
+$button-size:     8em;
+
+
+.circle-button {
+  width: $button-size;
+  height: $button-size;
+  border-radius: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  background-color: $white;
+  border: 2px solid $dark;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+
+  .circle-button-inside {
+    width: 100%;
+  }
+}

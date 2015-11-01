@@ -4,3 +4,22 @@
   // @extend .padding-vertical;
   // @extend .large-padding-vertical-most;
 }
+
+
+// the main logo used on the home page
+.logo {
+  margin-top: 12em;
+}
+
+.social-list {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+.slash-after {
+  &:after {
+    content: "/";
+    padding-left: 10px;
+  }
+}

@@ -4,15 +4,26 @@ block content
   .container
     .row
       .col-lg-12
+        p.m-t-xl Logo
+    
+    .social-list.row.m-t-lg.m-b-md
+      .col-lg-12
         ul.list-inline
-          li Twitter
-          li Behance
-          li Github
-          li Medium 
+          li.slash-after
+            a(href="https://twitter.com/riley_io") Twitter
+          li.slash-after
+              a(href="https://www.behance.net/riley_io") Behance
+          li.slash-after
+              a(href="https://github.com/pat-riley") Github
+          li 
+            a(href="https://medium.com/@riley") Medium 
     .row
       .col-lg-9.col-xs-10
-        h1 I’m an Atlanta based interface designer.
+        h1.m-b I’m an Atlanta based interface designer
         p.lead Currently I spend my days designing UIs around bitcoin and blockchain technology at BitPay.
       .col-lg-6.col-xs-6
-        button.btn.btn-default(type="button") Contact
-        button.btn.btn-default(type="button") Hire
+        .pull-right
+          button.circle-button.m-b(type="button")
+            .circle-button-inside Contact
+          button.circle-button(type="button")
+            .circle-button-inside Hire

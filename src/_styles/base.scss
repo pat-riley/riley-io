@@ -1,9 +1,10 @@
 @import 'variables', '../../components/bootstrap/scss/bootstrap';
+@import '../../components/bootstrap-breakpointify/all';
 
-@import 'layout', 'typography', 'colors', 'borders', 'backgrounds';
+@import 'layout', 'typography', 'colors', 'borders', 'backgrounds', 'buttons';
 
 @import 'elements';
 
-@import 'animations/general';
+@import 'utils';
 
 @import 'shame';

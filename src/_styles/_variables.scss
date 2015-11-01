@@ -1,4 +1,17 @@
 // variables
+// Bootstrap overrides must go here
+
+
+// Colors
+$white: #fff;
+$dark: #3d424d;
 
 $selection-color: #ebebff;
-$instantclick-bar-color: #4683e8;
+$instantclick-bar-color: $dark;
+
+$link-color:                 $dark;
+$link-hover-color:           darken($link-color, 15%);
+$link-hover-decoration:      none;
+
+$font-family-sans-serif:     'Montserrat', sans-serif;
+$font-family-base:           $font-family-sans-serif;

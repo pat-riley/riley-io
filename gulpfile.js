@@ -19,7 +19,8 @@ gulp.task('build', ['delete'], function(cb) {
   runSequence(
     [
       'code-review'
-    ], [
+    ],
+    [
       'sass',
       'jade',
       'images',
