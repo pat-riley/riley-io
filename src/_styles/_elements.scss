@@ -9,6 +9,9 @@
 // the main logo used on the home page
 .logo {
   margin-top: 12em;
+  @include media-breakpoint-down(sm) {
+    margin-top: 6em;
+  }
 }
 
 .social-list {

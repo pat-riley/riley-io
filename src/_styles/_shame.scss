@@ -5,3 +5,8 @@
 #instantclick-bar {
   background: $instantclick-bar-color;
 }
+
+
+::selection {
+  background: #FFF200; /* WebKit/Blink Browsers */
+}

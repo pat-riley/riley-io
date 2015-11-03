@@ -1,4 +1,5 @@
-$button-size:     8em;
+$button-size:     7em;
+
 
 
 .circle-button {
@@ -13,7 +14,16 @@ $button-size:     8em;
   font-size: 10px;
   letter-spacing: 1px;
   font-weight: 500;
-
+  outline: none;
+  &:hover {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: $dark;
+    color: #fff;
+  }
+  &:active {
+    transition: background-color 0s;
+    color: #fff;
+  }
   .circle-button-inside {
     width: 100%;
   }
