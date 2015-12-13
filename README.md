@@ -47,5 +47,9 @@ This rebuilds all markdown in the `generated` directory.
 ## Things to remember
 Same with the max width of the container
 
-
 I've manually added jasons bootstrap-breakpointify because bower wasn't installing it correctly
+
+## Adding projects
+I have set up a system for projects/writings in markdown
+1. Copy the example folder in /projects
+2. Write in the MD

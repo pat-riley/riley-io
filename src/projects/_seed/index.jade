@@ -1,0 +1,10 @@
+extends ../../_layouts/primary
+
+append vars
+  -var title = 'Seed Project';
+  -var description = 'This is where the description of the project goes';
+  -var date = '01/01/16';
+
+block content
+  include:marked seed.md
+  
