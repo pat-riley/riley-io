@@ -1,29 +1,30 @@
 $button-size:     7em;
 
-
-
 .circle-button {
-  width: $button-size;
-  height: $button-size;
-  border-radius: 5em;
-  text-align: center;
-  text-transform: uppercase;
-  display: block;
   background-color: $white;
   border: 2px solid $dark;
+  border-radius: 5em;
+  display: block;
   font-size: 10px;
-  letter-spacing: 1px;
   font-weight: 500;
+  height: $button-size;
+  letter-spacing: 1px;
   outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: $button-size;
+
   &:hover {
-    transition: background-color 0.5s ease, color 0.5s ease;
     background-color: $dark;
-    color: #fff;
+    color: $white;
+    transition: background-color .5s ease, color .5s ease;
   }
+
   &:active {
+    color: $white;
     transition: background-color 0s;
-    color: #fff;
   }
+
   .circle-button-inside {
     width: 100%;
   }

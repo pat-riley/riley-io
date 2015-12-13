@@ -8,21 +8,21 @@
 
 // the main logo used on the home page
 .logo {
-  margin-top: 12em;
   @include media-breakpoint-down(sm) {
     margin-top: 6em;
   }
+  margin-top: 12em;
 }
 
 .social-list {
-  text-transform: uppercase;
+  font-size: .7em;
   letter-spacing: 1px;
-  font-size: 0.7em;
+  text-transform: uppercase;
 }
 
 .slash-after {
   &:after {
-    content: "/";
+    content: '/';
     padding-left: 10px;
   }
 }
