@@ -13,3 +13,11 @@
 }
 
 // fills
+.bg-dark {
+  background: $darker;
+  border: 1px solid $border;
+}
+
+body {
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #FBFBFB 91%, #F7F7F7 100%);
+}
