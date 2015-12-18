@@ -1,9 +1,11 @@
 // extend all the things
 
 .section {
-  // @extend .padding-vertical;
-  // @extend .large-padding-vertical-most;
+  @extend .padding-vertical;
+  @extend .large-padding-vertical-most;
 }
+
+
 
 
 // the main logo used on the home page
