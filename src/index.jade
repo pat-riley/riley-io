@@ -3,11 +3,11 @@ extends _layouts/primary
 block content
   .container
     .row
-      .col-lg-12.p-x-0-lt-sm
+      .col-lg-12
         .logo WIP
     
-    .social-list.row.m-t-lg.m-b-md
-      .col-lg-12.p-x-0-lt-sm
+    .row.social-list.m-t-lg.m-b-md
+      .col-lg-12
         ul.list-inline
           li.slash-after
             a(href="https://twitter.com/riley_io") Twitter
@@ -17,29 +17,39 @@ block content
               a(href="https://github.com/pat-riley") Github
           li
             a(href="https://medium.com/@riley") Medium 
+    
     .row.m-b-xl
       .col-md-5.col-md-push-10
         img(src="images/rainbow.svg" width="100%").p-lg-mt-md
-      .col-md-10.col-md-pull-5.p-l-0
+      .col-md-10.col-md-pull-5
         h1.headline.m-b I’m an Atlanta based interface designer.
         p.lead Currently I spend my days designing UIs around bitcoin and blockchain technology at #[a(href="https://bitpay.com") BitPay]
     
-    .row.section.border-grey-vertical.p-y-lg.m-y-lg
-      .col-lg-1.p-l-0
-        img(src="images/glyph-1.svg" width="100%")
-      .col-lg-4
-        p.m-b-0 Current Title
-        p Product Designer
-      .col-lg-1.p-l-0
-        img(src="images/glyph-2.svg" width="100%")
-      .col-lg-4
-        p.m-b-0 Favorite Color
-        p Green
-      .col-lg-1.p-l-0
-        img(src="images/glyph-3.svg" width="100%")
-      .col-lg-4
-        p.m-b-0 Location
-        p Atlanta, GA
+    .row.border-grey-vertical.m-x-5.p-y-lg.m-y-lg
+      
+      .col-md-5
+        .row
+          .col-md-3.col-sm-2.p-l-0
+            img(src="images/glyph-1.svg" width="100%")
+          .col-md-12.col-sm-13
+            p.m-b-0 Current Title
+            p.m-b-0 Product Designer
+      
+      .col-md-5    
+        .row
+          .col-md-3.col-sm-2.p-l-0
+            img(src="images/glyph-2.svg" width="100%")
+          .col-md-12.col-sm-13
+            p.m-b-0 Favorite Color
+            p.m-b-0 Green
+      
+      .col-md-5    
+        .row
+          .col-md-3.col-sm-2.p-l-0
+            img(src="images/glyph-3.svg" width="100%")
+          .col-md-12.col-sm-13
+            p.m-b-0 Location
+            p.m-b-0 Atlanta, GA
     
     
     .row
