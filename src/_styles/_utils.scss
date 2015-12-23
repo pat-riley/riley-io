@@ -13,3 +13,9 @@
     text-align: center;
   }
 }
+
+.text-center-xs {
+  @include media-breakpoint-down(xs) {
+    text-align: center;
+  }
+}
