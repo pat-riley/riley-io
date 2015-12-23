@@ -42,6 +42,25 @@
   }
 }
 
+// Badges
+
+.badge-label {
+  @extend .m-b-0;
+  @extend .text-center-sm;
+}
+
+.badge-title {
+  @extend .m-b-0;
+  @extend .text-center-sm;
+}
+
+.badge {
+  width: 100%;
+}
+
+
+
+
 .footer {
   color: $white;
 }
