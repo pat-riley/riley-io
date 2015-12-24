@@ -3,27 +3,22 @@
 
 
 // Colors
-$white: #fff;
-$dark: #3d424d;
-$darker: #323232;
-$border: #979797;
-$border-light: #E5E5E5;
+$white:                   #fff;
+$dark:                    #3d424d;
+$darker:                  #323232;
+$border:                  #979797;
+$border-light:            #e5e5e5;
 
-$selection-color: #ebebff;
-$instantclick-bar-color: $dark;
+$selection-color:         #ebebff;
+$instantclick-bar-color:  $dark;
 
 
 
 $grid-breakpoints: (
-  // Extra small screen / phone
   xs: 0,
-  // Small screen / phone
   sm: 544px,
-  // Medium screen / tablet
   md: 768px,
-  // Large screen / desktop
   lg: 992px,
-  // Extra large screen / wide desktop
   xl: 1000px
 );
 
