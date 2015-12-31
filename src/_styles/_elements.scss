@@ -5,7 +5,22 @@
   @extend .large-padding-vertical-most;
 }
 
+.header {
+  @extend .m-t-lt-md;
+  @extend .m-b-lt-md;
+  @extend .m-t-xl;
+  @extend .m-b-xl;
 
+}
+
+.hallucination {
+  @include media-breakpoint-down(sm) {
+    padding: 2em 10em;
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 4em;
+  }
+}
 
 
 // the main logo used on the home page
@@ -36,7 +51,7 @@
 
   @include media-breakpoint-down(sm) {
     width:100%;
-    height: 350px;
+    height: 420px;
   }
   &:hover {
     transition: .25s;

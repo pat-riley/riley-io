@@ -2,3 +2,12 @@
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
 }
+
+.border-top-grey {
+    border-top: 1px solid #E5E5E5;
+}
+
+.dotted-underline {
+  border-bottom: 4px dotted $dark;
+  padding-bottom: 5px;
+}

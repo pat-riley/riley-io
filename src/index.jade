@@ -3,70 +3,72 @@ extends _layouts/primary
 block content
   .light-gradient
     .container
+      .header
+        //- .row.social-list.m-t-xl.m-b-md
+        //-   .col-lg-12
+        //-     ul.list-inline
+        //-       li.slash-after
+        //-         a(href="https://twitter.com/riley_io") Twitter
+        //-       li.slash-after
+        //-           a(href="https://www.behance.net/riley_io") Behance
+        //-       li.slash-after
+        //-           a(href="https://github.com/pat-riley") Github
+        //-       li
+        //-         a(href="https://medium.com/@riley") Medium 
+        
+        .row
+          .col-md-5.col-md-push-10
+            img(src="images/rainbow.svg" width="100%").p-lg-mt-md.hallucination 
+          .col-md-10.col-md-pull-5
+            h1.headline.m-b-lg.text-center-sm I’m an Atlanta based <br /> <span class="dotted-underline">interface designer</span>.
+            p.lead.text-center-sm Currently I spend my days designing UIs around bitcoin and blockchain technology at #[a(href="https://bitpay.com") BitPay]
+            //- <br />
+            //- p.text-center-md Read More
+      
+      
+    //- .row.border-top-grey.m-x-5.p-y-lg.m-t-lg.bg-transparent
+    //-   .container.p-x-0
+    //-     .col-xs-5
+    //-       .row
+    //-         .col-sm-15.col-md-4.col-lg-4
+    //-           img.badge(src="images/glyph-1.svg")
+    //-         .col-sm-15.col-md-11.col-lg-11
+    //-           p.badge-label Current Title
+    //-           p.badge-title Product Designer
+    //-     
+    //-     .col-xs-5
+    //-       .row
+    //-         .col-sm-15.col-md-4.col-lg-4
+    //-           img.badge(src="images/glyph-2.svg")
+    //-         .col-sm-15.col-md-11.col-lg-11
+    //-           p.badge-label Favorite Color
+    //-           p.badge-title Green
+    //-     
+    //-     .col-xs-5
+    //-       .row
+    //-         .col-sm-15.col-md-4.col-lg-4
+    //-           img.badge(src="images/glyph-3.svg")
+    //-         .col-sm-15.col-md-11.col-lg-11
+    //-           p.badge-label Location
+    //-           p.badge-title Atlanta, GA
+      
+      
+  .row.bg-dark
+    .col-lg-15
+      .p-y-md
+        h6.h6.text-center Select Works
+        //- p.opacity-70.text-center A few choice picks for the time being until I get the projects section up
     
-      .row.social-list.m-t-xl.m-b-md
-        .col-lg-12
-          ul.list-inline
-            li.slash-after
-              a(href="https://twitter.com/riley_io") Twitter
-            li.slash-after
-                a(href="https://www.behance.net/riley_io") Behance
-            li.slash-after
-                a(href="https://github.com/pat-riley") Github
-            li
-              a(href="https://medium.com/@riley") Medium 
-      
-      .row.m-b-xl
-        .col-sm-5.col-sm-push-10
-          img(src="images/rainbow.svg" width="100%").p-lg-mt-md
-        .col-sm-10.col-sm-pull-5
-          h1.headline.m-b.text-center-xs I’m an Atlanta based<br />interface designer.
-          p.lead.text-center-xs Currently I spend my days designing UIs around bitcoin and blockchain technology at #[a(href="https://bitpay.com") BitPay]
-      
-      
-      .row.border-grey-vertical.m-x-5.p-y-lg.m-y-lg
-
-        .col-xs-5
-          .row
-            .col-sm-15.col-md-4.col-lg-4
-              img.badge(src="images/glyph-1.svg")
-            .col-sm-15.col-md-11.col-lg-11
-              p.badge-label Current Title
-              p.badge-title Product Designer
-        
-        .col-xs-5
-          .row
-            .col-sm-15.col-md-4.col-lg-4
-              img.badge(src="images/glyph-2.svg")
-            .col-sm-15.col-md-11.col-lg-11
-              p.badge-label Favorite Color
-              p.badge-title Green
-        
-        .col-xs-5
-          .row
-            .col-sm-15.col-md-4.col-lg-4
-              img.badge(src="images/glyph-3.svg")
-            .col-sm-15.col-md-11.col-lg-11
-              p.badge-label Location
-              p.badge-title Atlanta, GA
-      
-      
-      .row
-        .col-lg-15
-          .m-y-lg
-            h6.text-center A selection of Work
-            p.text-center A few choice picks, for a full listing go here
-      
-      .row.m-b-lg
-        .col-md-15.col-md-5.p-x-0-gt-md
-          a(href="https://bitcore.io/" target="_blank")
-            .project-card.bitcore
-        .col-md-15.col-md-5.p-x-0-gt-md
-          a(href="http://source.io/" target="_blank")
-            .project-card.source
-        .col-md-15.col-md-5.p-x-0-gt-md
-          a(href="https://bitpay.com/" target="_blank")
-            .project-card.bitpay
+  .row.m-b-0
+    .col-md-15.col-lg-5.p-x-0-gt-md
+      a(href="https://bitcore.io/" target="_blank")
+        .project-card.bitcore
+    .col-md-15.col-lg-5.p-x-0-gt-md
+      a(href="http://source.io/" target="_blank")
+        .project-card.source
+    .col-md-15.col-lg-5.p-x-0-gt-md
+      a(href="https://bitpay.com/" target="_blank")
+        .project-card.bitpay
           
 
           
