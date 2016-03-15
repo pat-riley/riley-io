@@ -15,20 +15,20 @@
 
 .hallucination {
   @include media-breakpoint-down(sm) {
-    padding: 3em 10em;
+    padding: 2em 10em;
   }
   @include media-breakpoint-down(xs) {
-    padding: 4em;
+    padding: 2em 3em;
   }
 }
 
 
 // the main logo used on the home page
 .logo {
+  margin-top: 12em;
   @include media-breakpoint-down(sm) {
     margin-top: 6em;
   }
-  margin-top: 12em;
 }
 
 .social-list {
