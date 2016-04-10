@@ -159,7 +159,15 @@
 
 .footer {
   color: $white;
+
   ul {
     list-style: none;
+  }
+}
+
+.white {
+  color: $white;
+  &:hover {
+    color: #F1F1F1;
   }
 }
