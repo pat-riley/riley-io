@@ -29,3 +29,13 @@ $button-size:     7em;
     width: 100%;
   }
 }
+
+.hero-btns {
+  border-radius: 5rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  padding: .75rem 1.5rem .78rem;
+  text-transform: uppercase;
+  transition: background .2s;
+}
